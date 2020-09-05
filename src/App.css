@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  background-color: black;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App-section {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.App-logo-display {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-logo-button {
+  height: 20vmin;
+  margin: 0 1vw;
+  pointer-events: auto;
+}
