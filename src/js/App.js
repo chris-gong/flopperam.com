@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import '../css/App.css';
 import {socialMediaLinks, importAll} from './utils';
 
 function App() {
   // import all the images from the logos folder
-  const images = importAll(require.context('./logos', false, /\.(png|jpe?g|svg)$/));
+  const images = importAll(require.context('../logos', false, /\.(png|jpe?g|svg)$/));
   return (
     <div className="App">
       <header className="App-header">
