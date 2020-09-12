@@ -6,6 +6,9 @@ export const socialMediaLinks = {
 
 export const importAll = (r) =>  {
     let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    r.keys().map((item, index) => { 
+        images[item.replace('./', '')] = r(item); 
+        return 1; //need to return a value in arrow function to prevent warning
+    });
     return images;
 };
