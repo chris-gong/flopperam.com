@@ -1,6 +1,6 @@
 export const socialMediaLinks = {
     "youtube" : "https://www.youtube.com/channel/UCO77KLKwplncMHLo6gLpIHw",
-    "discord" : "https://discord.gg/2xbR5qT",
+    "discord" : "https://discord.gg/8yvTRBv",
     "twitter" : "https://twitter.com/Flopperam"
 };
 
